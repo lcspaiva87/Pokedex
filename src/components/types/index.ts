@@ -72,3 +72,8 @@ export interface TypeSpecie {
   name: string;
   url: string;
 }
+
+export interface TypePokemonIndex {
+  name: string;
+  url: string;
+}

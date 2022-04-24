@@ -8,7 +8,6 @@ export const ContainerThub = styled.div`
   text-align: center;
 
   ${(props) => {
-    console.log("props", props);
     switch (props.itemType) {
       case "fire":
         return css`

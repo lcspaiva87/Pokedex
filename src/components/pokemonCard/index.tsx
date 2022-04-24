@@ -1,13 +1,12 @@
 import { ContainerImg, ContainerInfo, ContainerThub, ImgContainer, NamePokemon, NumberPokemon } from "./styles"
 
 interface Pokemoncard {
-  id: number,
+  id?: number,
   name: string,
-  type?: string,
-  image?: string
+  type: string,
+  image: string
 }
 export const PokemonCard = ({ id, name, image, type }: Pokemoncard) => {
-  console.log("type", type)
   return (
     <>
 

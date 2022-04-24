@@ -1,3 +1,4 @@
+import { SiPokemon } from "react-icons/si";
 import styled from "styled-components";
 
 export const Container = styled.div`
@@ -23,4 +24,9 @@ export const Input = styled.input`
   margin-right: 5px;
   padding: 0 16px;
   height: 30px;
+`;
+export const Icone = styled(SiPokemon)`
+  -webkit-text-fill-color: transparent;
+  color: steelblue;
+  font-size: 150px;
 `;

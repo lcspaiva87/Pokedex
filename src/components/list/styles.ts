@@ -8,8 +8,3 @@ export const Container = styled.div`
   margin: 0 auto;
   max-width: 1200px;
 `;
-export const Icone = styled(SiPokemon)`
-  -webkit-text-fill-color: transparent;
-  color: steelblue;
-  font-size: 150px;
-`;
